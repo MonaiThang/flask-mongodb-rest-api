@@ -1,0 +1,285 @@
+{
+	"info": {
+		"_postman_id": "6db94d41-7126-49b6-9827-78e30c4235cc",
+		"name": "Blue API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create new article",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"latest science shows that potato chips are better for you than sugar\",\n  \"date\" : \"2016-09-22\",\n  \"body\" : \"some text, potentially containing simple markup about how potato chips are great\",\n  \"tags\" : [\"health\", \"fitness\", \"science\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/articles",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"articles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new article 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"Sri Lanka protesters set fire to PM Wickremesinghe's official residence hours after thousands storm presidential residence\",\n  \"body\" : \"Thousands of protesters, angered by Sri Lanka's worst economic crisis in 70 years, have stormed the president's house, office. Many blame the country's decline on Mr Rajapaksa, and are demanding his resignation. At least 39 people, including two police officers have been injured and hospitalised in the protests\",\n  \"tags\" : [\"Sri Lanka\", \"world\", \"protests\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/articles",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"articles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new article 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"Elon Musk says he's terminating $63 billion Twitter buyout deal\",\n  \"body\" : \"Mr Musk said Twitter had \\\"not complied with its contractual obligations\\\" surrounding the deal. Shares of Twitter fell 5 per cent on Friday. In April, Mr Musk became the company's largest shareholder after acquiring a 9 per cent stake.\",\n  \"tags\" : [\"Elon Musk\", \"world\", \"twitter\", \"money\", \"social media\", \"business\", \"finance\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/articles",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"articles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new article 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"Australians aged over 30 now eligible for a fourth COVID-19 vaccine dose\",\n  \"body\" : \"Australians aged 30 and over are now eligible to receive a fourth COVID-19 vaccine dose from next week following advice from the Australian Technical Advisory Group on Immunisation (ATAGI). From July 11 ATAGI has recommended that people aged 50 to 64 years old should receive a fourth dose, while people aged 30 to 49 years old may choose to have a fourth dose.\",\n  \"tags\" : [\"COVID 19\", \"coronavirus\", \"Australia\", \"disease\", \"health\", \"vaccine\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/articles",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"articles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new article 5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"COVID-19 antiviral treatments to become available to more Australians\",\n  \"body\" : \"Known as Lagevrio and Paxlovid, the drugs cost $6.80 for a concession card holder and around $40 for others. The health minister says anyone interested in the treatment should speak to their GP. Treatment needs to begin as soon as possible after symptoms appear\",\n  \"tags\" : [\"COVID 19\", \"coronavirus\", \"Australia\", \"health\", \"drugs\", \"health services\", \"national\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/articles",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"articles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new article 6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"Is North Korea hiding a bigger problem behind its COVID-19 outbreak?\",\n  \"body\" : \"Choi Jung-hun smiled as I read out the latest official COVID-19 figures from North Korean state media: fewer than 5 million cases of \\\"fever\\\" and just 73 fatalities - a fraction of the death toll of every other country in the world. \\\"North Koreans call them rubber band statistics,\\\" he said, in a nod toward Pyongyang's flexibility with the truth. \\\"It's hard even for North Korea to know its own numbers.\\\"\",\n  \"tags\" : [\"COVID 19\", \"coronavirus\", \"North Korea\", \"health\", \"Kim Jong Un\", \"world\", \"politics\", \"national\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/articles",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"articles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get article by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/articles/3",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"articles",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get article by ID - not exist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/articles/555",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"articles",
+						"555"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get list of articles with specified tag on specified date - available data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/tags/health/20220710",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"tags",
+						"health",
+						"20220710"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get list of articles with specified tag on specified date - tag not exist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/tags/abc/20220710",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"tags",
+						"abc",
+						"20220710"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get list of articles with specified tag on specified date - date not exist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/tags/health/20000710",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"tags",
+						"health",
+						"20000710"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "localhost:5000/api",
+			"type": "default"
+		}
+	]
+}
